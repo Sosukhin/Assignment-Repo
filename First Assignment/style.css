@@ -11,7 +11,7 @@ h1 {
 
 h2 {
     font-size: 40px;
-    color: white;
+
 
 
 }
@@ -21,6 +21,43 @@ h3 {
 
 }
 
+/*part one*/
+.flood-container {
+    background-image: url(images/donation13.jpg);
+    offset-position: bottom;
+    border-bottom-color: rgb(163, 174, 184);
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 500px;
+
+}
+
+.site-title {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    opacity: 100%;
+}
+
+.site-title h1 {
+    font-size: 60px;
+    color: white;
+
+}
+
+.site-title p {
+    font-size: 20px;
+    color: white;
+
+}
+
+
+
+
 
 .container {
     position: relative;
@@ -28,47 +65,6 @@ h3 {
     color: white;
 }
 
-.bottom-left {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-}
-
-.top-left {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-}
-
-.top-right {
-    position: absolute;
-    top: 8px;
-    right: 16px;
-}
-
-.bottom-right {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-}
-
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-}
-
-/*.flexible-container {
-    display: cover;
-    margin-bottom: 100px;
-}
-
-.top-banner {
-    background-image: url(images/donation13.jpg);
-    background-repeat: no-repeat;
-}*/
 .link-button {
     text-decoration: none;
     background-image: linear-gradient(rgb(224, 110, 110), rgb(223, 57, 28));
@@ -116,6 +112,8 @@ h3 {
 
 }
 
+
+
 .text-h3 {
     color: rgb(202, 25, 25);
 
@@ -123,6 +121,48 @@ h3 {
 
 footer p {
     text-align: center;
+}
+
+/*our donate plan*/
+.flex-box {
+    display: flex;
+
+    margin: 10%;
+
+
+}
+
+.one-box {
+    width: 800px;
+    height: 200px;
+    background-color: rgb(238, 196, 203);
+    padding: 40px;
+    margin: 10px;
+    border-radius: 2%;
+
+
+}
+
+.two-box {
+    width: 800px;
+    height: 200px;
+    background-color: rgb(196, 230, 238);
+    padding: 40px;
+    margin: 10px;
+    border-radius: 2%;
+
+
+}
+
+.three-box {
+    width: 800px;
+    height: 200px;
+    background-color: rgb(236, 241, 187);
+    padding: 40px;
+    margin: 10px;
+    border-radius: 2%;
+
+
 }
 
 /* part four*/
@@ -177,7 +217,7 @@ footer p {
 }
 
 /*last part*/
-footer {
+.footer-bottom {
     background: #2c3f2c;
     font-family: 'Times New Roman', Times, serif;
     padding-top: 20px;
@@ -191,8 +231,4 @@ footer {
     justify-content: center;
     flex-direction: column;
 
-}
-
-p {
-    text-size-adjust: 50px;
 }

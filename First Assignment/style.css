@@ -177,13 +177,22 @@ footer p {
 }
 
 /*last part*/
+footer {
+    background: #2c3f2c;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
 
+}
 
-.footer-design {
+.footer-content {
 
-    width: 100%;
-    padding: 100px 15%;
-    background-color: rgb(46, 40, 40);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
+}
 
+p {
+    text-size-adjust: 50px;
 }

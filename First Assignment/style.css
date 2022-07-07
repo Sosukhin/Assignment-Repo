@@ -183,6 +183,69 @@ footer p {
     width: 80%;
 }
 
+/*bonus new part*/
+/* .bonus {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 10%;
+
+
+
+}
+
+.one-container {
+    flex: 1;
+    background-image: url(images/donation3.jpg);
+
+    padding: 0px 20px;
+    width: 100px;
+    height: 300px;
+
+
+
+
+}
+ */
+.bonus-container {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+
+
+.card {
+    background: white;
+    width: 270px;
+    height: 400px;
+    margin: 100px;
+
+
+}
+
+.card-image {
+    background-color: aquamarine;
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.image-1 {
+    background-image: url(images/donation3.jpg);
+}
+
+.image-2 {
+    background-image: url(images/donation4.jpg);
+}
+
+.image-3 {
+    background-image: url(images/donation5.jpg);
+}
+
 /*part five*/
 .flex-update {
 
